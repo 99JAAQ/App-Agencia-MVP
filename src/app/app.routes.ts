@@ -1,3 +1,15 @@
 import { Routes } from '@angular/router';
+import { LoginComponent } from './login/login.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { HomeComponent } from './home/home.component';
+import { OffersComponent } from './offers/offers.component';
+import { TestPrimengComponent } from './test-primeng/test-primeng.component';
 
-export const routes: Routes = [];
+export const appRoutes: Routes = [
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: 'login', component: LoginComponent },
+  { path: 'reset-password', component: ResetPasswordComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'offers', component: OffersComponent },
+  { path: 'test', component: TestPrimengComponent },
+];
