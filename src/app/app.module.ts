@@ -32,6 +32,8 @@ import { CardModule } from 'primeng/card';
 import { DataViewModule } from 'primeng/dataview';
 import { RatingModule } from 'primeng/rating';
 import { TagModule } from 'primeng/tag';
+import { ProductService } from '../service/productservice';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -66,11 +68,11 @@ import { TagModule } from 'primeng/tag';
     DataViewModule,
     RatingModule,
     TagModule,
+    HttpClientModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [
-  ],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
