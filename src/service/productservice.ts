@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
-    
-@Injectable()
+
+@Injectable({
+  providedIn: 'root'
+})
 export class ProductService {
     getProductsData() {
         return [
@@ -1220,4 +1222,4 @@ export class ProductService {
     getProductsWithOrders() {
         return Promise.resolve(this.getProductsWithOrdersData());
     }
-};
+}

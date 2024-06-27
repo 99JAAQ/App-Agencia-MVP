@@ -34,6 +34,9 @@ import { RatingModule } from 'primeng/rating';
 import { TagModule } from 'primeng/tag';
 import { ProductService } from '../service/productservice';
 import { HttpClientModule } from '@angular/common/http';
+import { DividerModule } from 'primeng/divider';
+import { PanelModule } from 'primeng/panel';
+import { DialogModule } from 'primeng/dialog';
 
 
 
@@ -69,6 +72,9 @@ import { HttpClientModule } from '@angular/common/http';
     RatingModule,
     TagModule,
     HttpClientModule,
+    DividerModule,
+    PanelModule,
+    DialogModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
