@@ -1,0 +1,42 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+  }
+  
+  .ui-card-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .p-field {
+    margin-bottom: 1.5rem;
+  }
+  
+  .p-inputtext, .p-password {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .p-button-rounded {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .p-button-rounded:hover {
+    background-color: #1976d2;
+  }
+  

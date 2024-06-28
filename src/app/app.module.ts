@@ -37,6 +37,7 @@ import { PanelModule } from 'primeng/panel';
 import { DialogModule } from 'primeng/dialog';
 import { SidebarModule } from 'primeng/sidebar';
 import { CarouselModule } from 'primeng/carousel';
+import { PasswordModule } from 'primeng/password';
 
 
 
@@ -77,6 +78,7 @@ import { CarouselModule } from 'primeng/carousel';
     SidebarModule,
     SpeedDialModule,
     CarouselModule,
+    PasswordModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
