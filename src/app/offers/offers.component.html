@@ -1,10 +1,10 @@
 <p-panel header="Filtro de ofertas" [toggleable]="true">
   <div class="formgrid grid">
     <div class="field col">
-        <p-dropdown [options]="destinos" [(ngModel)]="selectedDestino" placeholder="Selecciona un destino" [editable]="true" optionLabel="name" class="text-base text-color p-2 w-full"></p-dropdown>
+        <p-dropdown [options]="destinos" [(ngModel)]="selectedDestino" placeholder="Selecciona un destino" [editable]="true" optionLabel="name" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"></p-dropdown>
     </div>
     <div class="field col">
-      <p-dropdown [options]="cities" [(ngModel)]="selectedCity" placeholder="Selecciona una ciudad" [editable]="true" optionLabel="name" class="text-base text-color surface-overlay p-2 w-full"></p-dropdown>
+      <p-dropdown [options]="cities" [(ngModel)]="selectedCity" placeholder="Selecciona una ciudad" [editable]="true" optionLabel="name" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"></p-dropdown>
   </div>
     <div class="field col">
       <input id="txtHoteles" type="text" placeholder="Selecciona un hotel" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full">
@@ -13,7 +13,7 @@
 
   <div class="formgrid grid">
     <div class="field col">
-          <p-calendar [(ngModel)]="date" [showIcon]="true" class="text-base text-color surface-overlay p-2 w-full" placeholder="Fechas disponibles">
+          <p-calendar [(ngModel)]="date" [showIcon]="true" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"> placeholder="Fechas disponibles">
               <ng-template pTemplate="date" let-date>
                   <span [ngStyle]="{ textDecoration: date.day < 21 && date.day > 10 ? 'line-through' : 'inherit' }">{{ date.day }}</span>
               </ng-template>

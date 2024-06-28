@@ -1,2 +1,32 @@
 
+.home-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    margin-bottom: 2rem;
+  }
+  
+  .popular-destinations {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .popular-destinations .ui-g {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonials {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .footer-content {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+  }
   

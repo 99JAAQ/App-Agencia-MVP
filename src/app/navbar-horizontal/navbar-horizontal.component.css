@@ -1,9 +1,0 @@
-/* Estilos CSS personalizados para hacer el p-splitButton redondo */
-.rounded-split-button .p-splitbutton {
-    border-radius: 9999px; /* Ajusta el valor para hacer el botón tan redondo como desees */
-}
-
-/* Estilos adicionales opcionales */
-.rounded-split-button .p-splitbutton .p-button {
-    border-radius: 9999px; /* Ajusta el valor para hacer redondo también el botón principal */
-}

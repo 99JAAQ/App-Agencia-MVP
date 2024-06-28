@@ -9,9 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { NavbarHorizontalComponent } from './navbar-horizontal/navbar-horizontal.component';
 import { OffersComponent } from './offers/offers.component';
-import { TestPrimengComponent } from './test-primeng/test-primeng.component';
 import { appRoutes } from './app.routes';
 
 
@@ -38,6 +36,8 @@ import { DividerModule } from 'primeng/divider';
 import { PanelModule } from 'primeng/panel';
 import { DialogModule } from 'primeng/dialog';
 import { SidebarModule } from 'primeng/sidebar';
+import { CarouselModule } from 'primeng/carousel';
+
 
 
 
@@ -50,9 +50,7 @@ import { SidebarModule } from 'primeng/sidebar';
     ResetPasswordComponent,
     HomeComponent,
     NavbarComponent,
-    NavbarHorizontalComponent,
-    OffersComponent,
-    TestPrimengComponent
+    OffersComponent
   ],
   imports: [
     BrowserModule,
@@ -78,6 +76,7 @@ import { SidebarModule } from 'primeng/sidebar';
     DialogModule,
     SidebarModule,
     SpeedDialModule,
+    CarouselModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
