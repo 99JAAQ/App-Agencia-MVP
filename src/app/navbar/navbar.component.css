@@ -1,0 +1,31 @@
+.navbar-vertical {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding-top: 60px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: #d5d3d3 1px solid;
+  }
+  
+  .logo-container {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logout-container {
+    padding: 1rem;
+    text-align: center;
+  }
+  

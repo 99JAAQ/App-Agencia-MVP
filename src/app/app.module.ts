@@ -37,6 +37,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DividerModule } from 'primeng/divider';
 import { PanelModule } from 'primeng/panel';
 import { DialogModule } from 'primeng/dialog';
+import { SidebarModule } from 'primeng/sidebar';
 
 
 
@@ -75,6 +76,8 @@ import { DialogModule } from 'primeng/dialog';
     DividerModule,
     PanelModule,
     DialogModule,
+    SidebarModule,
+    SpeedDialModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
