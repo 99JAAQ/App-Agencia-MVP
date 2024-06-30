@@ -10,6 +10,9 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { OffersComponent } from './offers/offers.component';
+import { UserComponent } from './Administration/user/user.component';
+import { FormUserComponent } from './Administration/user/form-user/form-user.component';
+import { TableUserComponent } from './Administration/user/table-user/table-user.component';
 import { appRoutes } from './app.routes';
 
 
@@ -31,6 +34,7 @@ import { DataViewModule } from 'primeng/dataview';
 import { RatingModule } from 'primeng/rating';
 import { TagModule } from 'primeng/tag';
 import { ProductService } from '../service/productservice';
+import { userservice } from '../service/userservice';
 import { HttpClientModule } from '@angular/common/http';
 import { DividerModule } from 'primeng/divider';
 import { PanelModule } from 'primeng/panel';
@@ -38,6 +42,7 @@ import { DialogModule } from 'primeng/dialog';
 import { SidebarModule } from 'primeng/sidebar';
 import { CarouselModule } from 'primeng/carousel';
 import { PasswordModule } from 'primeng/password';
+import { TableModule } from 'primeng/table';
 
 
 
@@ -51,7 +56,10 @@ import { PasswordModule } from 'primeng/password';
     ResetPasswordComponent,
     HomeComponent,
     NavbarComponent,
-    OffersComponent
+    OffersComponent,
+    UserComponent,
+    FormUserComponent,
+    TableUserComponent
   ],
   imports: [
     BrowserModule,
@@ -79,10 +87,11 @@ import { PasswordModule } from 'primeng/password';
     SpeedDialModule,
     CarouselModule,
     PasswordModule,
+    TableModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [ProductService],
+  providers: [ProductService,userservice],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
