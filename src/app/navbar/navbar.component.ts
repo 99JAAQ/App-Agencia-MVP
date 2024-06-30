@@ -37,7 +37,7 @@ export class NavbarComponent implements OnInit {
           {
             label: 'Usuarios y permisos',
             icon: 'pi pi-fw pi-plus',
-            routerLink: ['/orders/new']
+            routerLink: ['/administration/user']
           },
           {
             label: 'Destinos',
