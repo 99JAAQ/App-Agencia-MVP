@@ -34,6 +34,7 @@ import { DataViewModule } from 'primeng/dataview';
 import { RatingModule } from 'primeng/rating';
 import { TagModule } from 'primeng/tag';
 import { ProductService } from '../service/productservice';
+import { userservice } from '../service/userservice';
 import { HttpClientModule } from '@angular/common/http';
 import { DividerModule } from 'primeng/divider';
 import { PanelModule } from 'primeng/panel';
@@ -41,6 +42,7 @@ import { DialogModule } from 'primeng/dialog';
 import { SidebarModule } from 'primeng/sidebar';
 import { CarouselModule } from 'primeng/carousel';
 import { PasswordModule } from 'primeng/password';
+import { TableModule } from 'primeng/table';
 
 
 
@@ -85,10 +87,11 @@ import { PasswordModule } from 'primeng/password';
     SpeedDialModule,
     CarouselModule,
     PasswordModule,
+    TableModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [ProductService],
+  providers: [ProductService,userservice],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
