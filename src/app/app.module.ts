@@ -10,6 +10,9 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { OffersComponent } from './offers/offers.component';
+import { UserComponent } from './Administration/user/user.component';
+import { FormUserComponent } from './Administration/user/form-user/form-user.component';
+import { TableUserComponent } from './Administration/user/table-user/table-user.component';
 import { appRoutes } from './app.routes';
 
 
@@ -51,7 +54,10 @@ import { PasswordModule } from 'primeng/password';
     ResetPasswordComponent,
     HomeComponent,
     NavbarComponent,
-    OffersComponent
+    OffersComponent,
+    UserComponent,
+    FormUserComponent,
+    TableUserComponent
   ],
   imports: [
     BrowserModule,
