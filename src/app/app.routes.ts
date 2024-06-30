@@ -11,5 +11,5 @@ export const appRoutes: Routes = [
   { path: 'reset-password', component: ResetPasswordComponent },
   { path: 'home', component: HomeComponent },
   { path: 'offers', component: OffersComponent },
-  { path: '/administration/user', component: UserComponent },
+  { path: 'administration/user', component: UserComponent },
 ];
