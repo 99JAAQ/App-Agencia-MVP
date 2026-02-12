@@ -8,7 +8,6 @@ export class MoreInfoService {
         return [
             { name: '¿Incluye vuelo?', code: '1'},
             { name: '¿alojamiento?', code: '2'}
-
         ]
     }
 
